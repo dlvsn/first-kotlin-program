@@ -4,6 +4,6 @@ package denys.mazurenko
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
     println("Enter your city...")
-    var userCityInputData = readLine()
+    val userCityInputData = readLine()
     println("User lives in $userCityInputData")
 }
